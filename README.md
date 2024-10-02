@@ -201,3 +201,11 @@ interface Platform {
 - Your team's expertise often outweighs technical advantages
 - Consider making a small proof-of-concept before committing
 - All three frameworks are production-ready with major apps using them
+
+
+## References
+- https://shopify.engineering/react-native-future-mobile-shopify
+- https://www.nomtek.com/blog/flutter-vs-react-native
+- https://www.thedroidsonroids.com/blog/flutter-vs-react-native-comparison#:~:text=If%20the%20iOS%20and%20Android,a%20speedier%20development%20than%20Flutter.&text=Quick%20with%20its%20library%20of,due%20to%20platform%2Dspecific%20optimizations.&text=Easily%20update%20to%20the%20new,to%20automated%20built%2Din%20tools.
+- https://dashdevs.com/blog/cross-platform-mobile-development-overview-flutter-vs-react-native-development-comparison-and-performance-checks/
+- https://www.adapptor.com.au/blog/flutter-vs-react-native-a-detailed-comparison
