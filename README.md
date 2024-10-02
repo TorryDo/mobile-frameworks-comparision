@@ -1,5 +1,3 @@
-# mobile-frameworks-comparision
-
 # Mobile Frameworks Comparison: Choosing the Ideal Framework for Your Next Project
 
 ## Table of Contents 📝
@@ -246,3 +244,4 @@ interface Platform {
 - https://dashdevs.com/blog/cross-platform-mobile-development-overview-flutter-vs-react-native-development-comparison-and-performance-checks/
 - https://www.adapptor.com.au/blog/flutter-vs-react-native-a-detailed-comparison
 - https://medium.com/xorum-io/cross-platform-mobile-apps-development-in-2021-xamarin-vs-react-native-vs-flutter-vs-kotlin-ca8ea1f5a3e0
+- https://www.linkedin.com/pulse/flutter-vs-react-native-kotlin-multiplatform-future-cross-3l2ic
