@@ -6,25 +6,24 @@
 > 3. [Frameworks in Detail](#frameworks-in-detail)  
 > &nbsp;&nbsp;&nbsp;3.1 [Flutter](#flutter)  
 > &nbsp;&nbsp;&nbsp;3.2 [React Native](#react-native)  
-> &nbsp;&nbsp;&nbsp;3.3 [Kotlin Multiplatform](#kotlin-multiplatform)  
-> 4. [Performance Metrics Comparison](#performance-metrics-comparison)  
-> 5. [Development Speed and Maintainability](#development-speed-and-maintainability)  
-> 6. [Real-World Use Cases](#real-world-use-cases)  
-> 7. [Advantages and Limitations of Each Framework](#advantages-and-limitations-of-each-framework)  
-> 8. [Conclusion: Making the Final Decision](#conclusion-making-the-final-decision) 🚧
+> 4. [Detailed Comparison](#detailed-comparison)  
+> 5. [Real-World Use Cases](#real-world-use-cases)  
+> 6. [Advantages and Limitations of Each Framework](#advantages-and-limitations-of-each-framework)  
+> 7. [Conclusion: Making the Final Decision](#conclusion-making-the-final-decision) 🚧
 
-<!-- SECTION 1 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- SECTION 1 ------------------------------------------------------- -->
+
 ## 1. Introduction: The Importance of Choosing the Right Mobile Framework <a name="introduction"/>  
 
 Building a mobile app is no longer just about having a great idea—it’s about selecting the right tools to bring that idea to life. Among the most crucial decisions you’ll face is choosing a mobile framework, and it's more than just a technical preference; it’s a strategic choice that can define the trajectory of your project. 
 
 The wrong choice can lead to bloated apps, sluggish performance, and countless hours spent debugging platform-specific issues. The right choice, however, can accelerate your time to market, optimize your app’s performance, and save you from future headaches by making updates and maintenance far smoother.
 
-In today’s ecosystem, frameworks like **Flutter**, **React Native**, and **Kotlin Multiplatform** have risen to the top. But the question isn’t just “Which is the most popular?” It’s **Which framework aligns best with your project’s unique goals and your team’s strengths?**
+In today’s ecosystem, frameworks like **Flutter** and **React Native** have risen to the top. But the question isn’t just “Which is the most popular?” It’s **Which framework aligns best with your project’s unique goals and your team’s strengths?**
 
 This guide isn’t here to provide generic advice—you’re about to dive into a comparison based on real-world performance, success stories, and practical insights. Whether you're focused on pixel-perfect designs, seamless user experiences, or rapid development cycles, this exploration will help you make a best choice. Let’s find out which framework will turn your project’s vision into reality.
 
-<!-- SECTION 2 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- SECTION 2 ------------------------------------------------------- -->
 ## 2. Key Factors in Mobile Framework Selection <a name="key-factors"/>  
 
 ### 1. Performance 🚀
@@ -48,7 +47,7 @@ Your team’s existing knowledge and expertise play a crucial role in framework 
 ### 7. Long-Term Viability 📈
 Consider the long-term prospects of the framework you choose. Look at factors like the backing company, community growth, and frequency of updates. A framework that is well-supported and continuously evolving is more likely to meet future development needs.
 
-<!-- SECTION 1 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- SECTION 3 ------------------------------------------------------- -->
 ## 3. Overview of Popular Mobile Frameworks <a name="frameworks-in-detail"/>  
 
 In the dynamic world of mobile development, a few frameworks have established themselves as leading choices for cross-platform development. This section highlights three popular frameworks—**Flutter**, **React Native**, and **Kotlin Multiplatform (KMP)**—shedding light on their core characteristics, strengths, and ideal use cases.
@@ -81,26 +80,30 @@ Flutter, developed by **Google**, is an open-source UI toolkit that enables deve
 - Apps requiring **frequent over-the-air updates** and faster iteration.
 - Projects where a **single codebase** for both iOS and Android is desired.
 
----
 
-### 3. Kotlin Multiplatform (KMP) 📱
-**Kotlin Multiplatform (KMP)**, backed by **JetBrains**, allows developers to share code between platforms like Android and iOS, focusing on sharing business logic and maintaining separate UIs for each platform.
+## 4. Detailed Comparison <a name="detailed-comparison"/>  
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Key Features:**
-- **Code Sharing:** Efficiently share business logic while maintaining platform-specific UI components.
-- **Native Performance:** Close to the performance of fully native apps.
-- **Strong Type System:** Kotlin’s type system reduces runtime errors, increasing application stability.
+### Technical
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Ideal Use Cases:**
-- Apps with an existing **Android codebase** that need to be extended to iOS.
-- Projects prioritizing **business logic sharing** with distinct platform-specific UIs.
-- Teams experienced with **Kotlin** looking for a multiplatform solution.
+1. Toolchain
 
----
+| Type | Flutter | React Native |
+| :-: | :-: | :-: |
+| Extension/Plugin | ✅ | ✅ |
+| Inlinded Component Docs | ✅ | ❌ |
+| Code Lint | ✅ | ✅ |
+| Type Checking             | ✅      | ❌           |
+| Hot Reload                | ✅      | ✅           |
+| Base UI Component Libraries     | ✅      | ❌ |
+| Third-Party Libraries     | ✅      | ✅ |
+| Fragmentation Resolved | ✅ | ❌ |
+| Community | ❌ | ✅ |
+| Job opportunities | ❌ | ✅ |
 
-## 4. Performance Metrics Comparison <a name="performance-metrics-comparison"/>  
+- React Native uses functional programming by convention, while Flutter uses object-oriented programming by design
+- Everything is a component/widget in Flutter, while React Native uses components and stylesheets
 
-In this section, we will compare **Flutter**, **React Native**, and **Kotlin Multiplatform (KMP)** across several key factors, such as performance, development speed, community support, and more. This will help in making an informed decision on which framework best suits your project.
+2. 
 
 ### 1. Performance ⚡
 Performance is a crucial factor when choosing a mobile framework. Each framework handles performance differently, with trade-offs depending on the app's complexity.
@@ -156,56 +159,8 @@ The time it takes for developers to learn a new framework can have a significant
 | **Complexity**              | Medium learning curve   | Low learning curve for web devs, medium for mobile | High, due to native platform integration |
 | **Documentation**           | Comprehensive and well-maintained | Large number of resources available | Good documentation, but fewer learning resources compared to others |
 
-### Conclusion 🎯
-Each of these frameworks brings unique strengths to the table. The best choice depends on your project’s goals, timeline, and the expertise of your development team. While Flutter is ideal for rich UIs and high performance, React Native shines with its JavaScript ecosystem, and Kotlin Multiplatform excels in sharing business logic between platforms.
-
-In the next section, we'll dive into real-world examples of apps built using these frameworks, providing insight into how industry leaders are leveraging them.
 
 
-
-
-## Performance Metrics That Actually Matter
-
-### App Size
-Real-world examples from Google Play Store (2024):
-- Shopify Shop (Flutter): 14.8MB
-- Facebook (React Native): 58.2MB
-- Netflix (Kotlin Multiplatform): 26.4MB
-
-### Startup Time
-Tested on Pixel 7, Android 13:
-- Flutter: 1.8s cold start
-- React Native: 2.4s cold start
-- KMP: 1.6s cold start
-
-*Source: [Mobile Framework Benchmark 2024](https://thoughtbot.com/blog/examining-performance-differences-between-native-flutter-and-react-native-mobile-development)*
-
-## Development Speed vs. Maintainability
-
-### Time to Market
-Based on a survey of 158 dev teams building e-commerce apps:
-
-| Framework | Development Time | Maintenance Factor |
-|-----------|------------------|-------------------|
-| Flutter | 3.5 months | 32% less time for updates |
-| React Native | 4 months | 28% faster to debug |
-| KMP | 5.5 months | 47% fewer production crashes |
-
-## Real-World Use Cases
-
-### Choose Flutter When:
-- Building UI-heavy apps with custom designs
-- **Example:** Google Pay rewrote their app in Flutter, reducing codebase by 35%
-
-### Choose React Native When:
-- Leveraging existing web dev team
-- Need frequent OTA updates
-- **Example:** Discord uses RN for its iOS app, sharing 98% code with Android
-
-### Choose Kotlin Multiplatform When:
-- Have existing Android codebase
-- Need to share business logic between platforms
-- **Example:** Netflix uses KMP, sharing 60% of code between Android and iOS
 
 ## Framework-Specific Advantages & Limitations
 
@@ -233,17 +188,6 @@ Based on a survey of 158 dev teams building e-commerce apps:
 - Inconsistent behavior between platforms
 - Frequent breaking changes in ecosystem
 
-### Kotlin Multiplatform
-
-✅ Advantages:
-- Native performance
-- Strong type system reduces runtime errors
-- Excellent for sharing business logic
-
-❌ Limitations:
-- UI must be written separately for each platform
-- Smaller ecosystem compared to others
-- Steeper learning curve
 
 ## Decision Factors Beyond Technical Specs
 
@@ -279,45 +223,6 @@ Average ramp-up time for developers:
    - Yes → Flutter or React Native
    - No → Consider native development
 
-## Framework-Specific Pitfalls to Avoid
-
-### Flutter
-```dart
-// Bad: Rebuilds entire list on any change
-ListView(
-  children: myItems.map((item) => MyWidget(item)).toList(),
-);
-
-// Good: Only builds visible items
-ListView.builder(
-  itemCount: myItems.length,
-  itemBuilder: (context, index) => MyWidget(myItems[index]),
-);
-```
-
-### React Native
-```javascript
-// Bad: Creates new styles every render
-<View style={{padding: 10, margin: 10}}>
-
-// Good: Uses StyleSheet for better performance
-const styles = StyleSheet.create({
-  container: {padding: 10, margin: 10}
-});
-<View style={styles.container}>
-```
-
-### Kotlin Multiplatform
-```kotlin
-// Bad: Platform-specific code in common module
-expect fun getPlatformName(): String
-
-// Good: Use proper dependency injection
-interface Platform {
-    val name: String
-}
-```
-
 ## Case Studies
 
 ### Tencent's Choice: Flutter
@@ -327,15 +232,6 @@ interface Platform {
   - 20% improvement in app performance
 
 *Source: [Flutter Engage China](https://www.youtube.com/watch?v=5lBzBxjPArc)*
-
-### Netflix's Choice: Kotlin Multiplatform
-- Utilizing KMP for their mobile apps
-- Results:
-  - 60% code sharing between platforms
-  - Significantly reduced bugs due to shared business logic
-  - Improved developer productivity
-
-*Source: [Netflix Tech Blog](https://netflixtechblog.com/netflix-android-and-ios-studio-apps-kotlin-multiplatform-d6d4d8d25d23)*
 
 ### Shopify's Choice: React Native
 - Migrated from native to React Native
