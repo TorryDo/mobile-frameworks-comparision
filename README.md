@@ -3,16 +3,21 @@
 # How to Choose a Mobile Framework for Your Next Project 🤔
 
 ## Table of Contents 📝
-> 1. [How to Choose a Mobile Framework for Your Next Project 🤔](#how-to-choose-a-mobile-framework-for-your-next-project)  
-> 2. [Performance Metrics That Actually Matter](#performance-metrics-that-actually-matter)  
-> 3. [Development Speed vs. Maintainability](#development-speed-vs-maintainability)  
-> 4. [Real-World Use Cases](#real-world-use-cases)  
-> 5. [Framework-Specific Advantages & Limitations](#framework-specific-advantages--limitations)  
-> 6. [Decision Factors Beyond Technical Specs](#decision-factors-beyond-technical-specs)  
-> 7. [Practical Decision Tree](#practical-decision-tree)  
-> 8. [Framework-Specific Pitfalls to Avoid](#framework-specific-pitfalls-to-avoid)  
-> 9. [Case Studies](#case-studies)  
-> 10. [Final Thoughts](#final-thoughts) 🚧
+> 1. [Introduction: The Importance of Choosing the Right Mobile Framework](#introduction-the-importance-of-choosing-the-right-mobile-framework)  
+> 2. [Key Factors in Mobile Framework Selection](#key-factors-in-mobile-framework-selection)  
+> 3. [Frameworks in Detail](#frameworks-in-detail)  
+> &nbsp;&nbsp;&nbsp;3.1 [Flutter](#flutter)  
+> &nbsp;&nbsp;&nbsp;3.2 [React Native](#react-native)  
+> &nbsp;&nbsp;&nbsp;3.3 [Kotlin Multiplatform](#kotlin-multiplatform)  
+> 4. [Performance Metrics Comparison](#performance-metrics-comparison)  
+> 5. [Development Speed and Maintainability](#development-speed-and-maintainability)  
+> 6. [Real-World Use Cases](#real-world-use-cases)  
+> 7. [Advantages and Limitations of Each Framework](#advantages-and-limitations-of-each-framework)  
+> 8. [How to Choose the Right Framework for Your Project](#how-to-choose-the-right-framework-for-your-project)  
+> 9. [Case Studies: Success Stories with Different Frameworks](#case-studies-success-stories-with-different-frameworks)  
+> 10. [Conclusion: Making the Final Decision](#conclusion-making-the-final-decision) 🚧
+
+
 
 
 ## Performance Metrics That Actually Matter
