@@ -2,6 +2,19 @@
 
 # How to Choose a Mobile Framework for Your Next Project 🤔
 
+## Table of Contents 📝
+> 1. [How to Choose a Mobile Framework for Your Next Project 🤔](#how-to-choose-a-mobile-framework-for-your-next-project)  
+> 2. [Performance Metrics That Actually Matter](#performance-metrics-that-actually-matter)  
+> 3. [Development Speed vs. Maintainability](#development-speed-vs-maintainability)  
+> 4. [Real-World Use Cases](#real-world-use-cases)  
+> 5. [Framework-Specific Advantages & Limitations](#framework-specific-advantages--limitations)  
+> 6. [Decision Factors Beyond Technical Specs](#decision-factors-beyond-technical-specs)  
+> 7. [Practical Decision Tree](#practical-decision-tree)  
+> 8. [Framework-Specific Pitfalls to Avoid](#framework-specific-pitfalls-to-avoid)  
+> 9. [Case Studies](#case-studies)  
+> 10. [Final Thoughts](#final-thoughts) 🚧
+
+
 ## Performance Metrics That Actually Matter
 
 ### App Size
