@@ -249,6 +249,7 @@ Average ramp-up time for developers:
 
 
 ## References
+- https://www.linkedin.com/pulse/react-native-new-architecture-what-changes-brings-react-poland
 - https://nateshmbhat.medium.com/flutter-vs-react-native-performance-benchmarks-you-cant-miss-%EF%B8%8F-2e31905df9b4
 - https://shopify.engineering/react-native-future-mobile-shopify
 - https://www.nomtek.com/blog/flutter-vs-react-native
